@@ -12,6 +12,36 @@ p {
     text-align: left;
 }
 
+h1, h2, h3, h4, h5, h6,
+p {
+    margin: 0; 
+    padding: 0; 
+}
+
+ul {
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.header-container {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+}
+
+.item_logo {
+
+}
+
+.item_hl {
+
+}
+
+.item_cl {
+
+}
+
 .lgtp {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -20,7 +50,9 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:  #4d5ae5;
+    text-decoration: none;
 }
+
 
 .lgtp_spn {
     color:#2e2f42;
@@ -30,10 +62,6 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.address {
-    font-style: normal;
 }
 
 .header-list {
@@ -46,10 +74,16 @@ p {
     cursor: pointer;
 }
 
+
 .header-list:hover,
 .header-list:focus {
     color: #404bbf
 }
+
+.address {
+    font-style: normal;
+}
+
 
 .address-list {
     font-weight: 400;
