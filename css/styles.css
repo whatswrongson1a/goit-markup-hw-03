@@ -240,7 +240,8 @@ img {
 }
 
 .portfolio {
-    padding-top: 120px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .portfolio-li {
@@ -277,6 +278,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-p {
@@ -288,7 +290,12 @@ img {
 }
 
 .footer {
-    background-color: #2E2F42; 
+    padding: 100px 0;
+}
+
+.footer-container {
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logotype {
@@ -299,6 +306,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+    max-width: 71px;
 }
 
 .logotype_spn {
@@ -309,14 +320,17 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    text-decoration: none;
 }
 
 footer {
-    background-color: #2e2f42;
+    background-color: #2E2F42;
 }
 
 .footer-paragraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
+    margin-left: 156px;
 }
