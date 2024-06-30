@@ -32,29 +32,16 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
-.header-container {
+.container {
     display: flex;
     width: 1158px;
     margin: 0 auto; 
     padding: 0 15px;
 }
 
-.item_logo {
-    margin-right: 76px;
-}
-
 .nav-list {
     display: flex;
     align-items: center;
-}
-
-.nav-li {
-    padding: 24px 0 
-}
-
-.contacts-list {
-    display: flex;
-    gap: 40px;
 }
 
 .lgtp {
@@ -88,13 +75,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 
 .header-li {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
 }
 
 
@@ -128,21 +114,10 @@ img {
     color: #404bbf;
 }
 
-.hero-container {
-    display: flex;
-    background-color: #2E2F42;
-    height: 600px;
-    max-width: 100%;
-}
-
-
-.item_btn {
-    margin-top: 404px;
-}
-
 .hero {
     color: #FFFFFF;
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .hero-text {
@@ -151,8 +126,7 @@ img {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
-    height: 120px;
+    max-width: 496px;
 
 }
 
@@ -166,8 +140,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    border: 0;
+    border: none;
     padding: 16px 32px 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 
 .btn:hover,
