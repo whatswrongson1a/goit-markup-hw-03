@@ -32,12 +32,6 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
-header div {
-    display: flex;
-    width: 1158px;
-    padding: 0 15px 0 15px;
-}
-
 .container {
     display: flex;
     width: 1158px;
@@ -159,12 +153,38 @@ header div {
     background-color:#404BBF;
 }
 
+.features {
+    padding: 120px 0;
+
+}
+
+.ftrs-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.ftrs-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    border: 0 !important;
+}
+
 .features-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .features-paragraf {
