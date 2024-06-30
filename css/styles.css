@@ -32,6 +32,12 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
+header div {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px 0 15px;
+}
+
 .container {
     display: flex;
     width: 1158px;
