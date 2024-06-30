@@ -39,14 +39,13 @@ img {
     padding: 0 15px;
 }
 
-.nav-nav {
-    display: flex;
-    align-items: center;
+.item_logo {
+    margin-right: 76px;
 }
 
 .nav-list {
     display: flex;
-    gap: 40px;
+    align-items: center;
 }
 
 .nav-li {
@@ -89,7 +88,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     cursor: pointer;
-    padding: 24px 0;
+    padding: 24px 0 24px;
+}
+
+.header-li {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0 24px;
 }
 
 
@@ -100,6 +105,11 @@ img {
 
 .address {
     font-style: normal;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px
 }
 
 
