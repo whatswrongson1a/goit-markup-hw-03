@@ -168,14 +168,16 @@ img {
 }
 
 .visually-hidden {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    border: 0 !important;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-title {
@@ -293,11 +295,6 @@ img {
     padding: 100px 0;
 }
 
-.footer-container {
-    flex-direction: column;
-    justify-content: center;
-}
-
 .logotype {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -307,9 +304,9 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
     margin-bottom: 16px;
     max-width: 71px;
+    display: inline-block;
 }
 
 .logotype_spn {
