@@ -296,6 +296,8 @@ img {
     padding: 100px 0;
     background-color: #2E2F42;
     flex-direction: column;
+    align-items: center;
+    height: 312px;
 }
 
 .logotype {
@@ -307,9 +309,9 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-bottom: 16px;
-    max-width: 71px;
     display: inline-block;
+    margin-bottom: 16px;
+    padding: 0;
 }
 
 .logotype_spn {
@@ -321,12 +323,14 @@ img {
     text-transform: uppercase;
     color: #f4f4fd;
     text-decoration: none;
+    display: inline-block;
 }
 
 .footer-paragraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    max-width: 264px;
-    margin-left: 156px;
+    width: 264px;
+    margin-top: 48px;
+    padding: 0;
 }
