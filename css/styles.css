@@ -292,7 +292,10 @@ img {
 }
 
 .footer {
+    display: flex;
     padding: 100px 0;
+    background-color: #2E2F42;
+    flex-direction: column;
 }
 
 .logotype {
@@ -318,10 +321,6 @@ img {
     text-transform: uppercase;
     color: #f4f4fd;
     text-decoration: none;
-}
-
-footer {
-    background-color: #2E2F42;
 }
 
 .footer-paragraf {
