@@ -334,3 +334,7 @@ img {
     margin-top: 48px;
     padding: 0;
 }
+
+.footer-container {
+    display: inline-block !important;
+}
